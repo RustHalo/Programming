@@ -18,6 +18,6 @@ for username, status in login_attempts:
 
 for username, count in failed_counts.items():
     if count >=3:
-        print(f"ALERT!: User '{username}' has {count} failed ligin attempts")
+        print(f"ALERT!: User '{username}' has {count} failed login attempts")
 
-print("Security Check complete")
+print("Security Check complete.")
