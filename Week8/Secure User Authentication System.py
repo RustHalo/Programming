@@ -3,7 +3,6 @@ import datetime
 
 class User:
     def __init__(self, username, password, privilege_level="standard"):
-        """Initializes a new user with private attributes to ensure encapsulation."""
         self.username = username
         #private attributes to prevent direct manipulation
         self.__password_hash = self.__hash_password(password)
